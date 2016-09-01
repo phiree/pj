@@ -1,0 +1,19 @@
+.header
+{
+    padding-top:15px;
+    padding-right:15px;
+}
+.header-top
+{
+    padding-bottom: 15px;
+}
+.header-nav
+{
+ border-top:solid 1px #dcdcdc;
+    padding:15px 0;
+    font-size:2em;
+}
+.logintext
+{
+    font-size:2em;
+}
