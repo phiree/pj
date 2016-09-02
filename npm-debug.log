@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'respond@1.4' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of D:\Code\PJ\app\package.json
+5 verbose installManyTop reading scoped package data from D:\Code\PJ\app\node_modules\bootstrap\package.json
+6 verbose installManyTop reading scoped package data from D:\Code\PJ\app\node_modules\jquery\package.json
+7 verbose installManyTop reading scoped package data from D:\Code\PJ\app\node_modules\respond\package.json
+8 verbose readDependencies loading dependencies from D:\Code\PJ\app\package.json
+9 silly cache add args [ 'respond@1.4', null ]
+10 verbose cache add spec respond@1.4
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'respond@1.4',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'respond',
+11 silly cache add   rawSpec: '1.4',
+11 silly cache add   spec: '>=1.4.0 <1.5.0',
+11 silly cache add   type: 'range' }
+12 silly addNamed respond@>=1.4.0 <1.5.0
+13 verbose addNamed ">=1.4.0 <1.5.0" is a valid semver range for respond
+14 silly addNameRange { name: 'respond', range: '>=1.4.0 <1.5.0', hasData: false }
+15 silly mapToRegistry name respond
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'respond',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   name: 'respond',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/respond
+20 verbose addNameRange registry:https://registry.npmjs.org/respond not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/respond
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 22:19:33
+24 verbose request id ec0c4e33e1708b65
+25 verbose etag "E1X0K05H66HLFJXB2JE7Z7AKA"
+26 http request GET https://registry.npmjs.org/respond
+27 http 304 https://registry.npmjs.org/respond
+28 verbose headers { date: 'Thu, 01 Sep 2016 14:19:37 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   'cache-control': 'max-age=300',
+28 verbose headers   etag: '"E1X0K05H66HLFJXB2JE7Z7AKA"',
+28 verbose headers   age: '64',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-lcy1125-LCY',
+28 verbose headers   'x-cache': 'HIT',
+28 verbose headers   'x-cache-hits': '1',
+28 verbose headers   'x-timer': 'S1472739577.106293,VS0,VE0',
+28 verbose headers   vary: 'Accept-Encoding' }
+29 silly get cb [ 304,
+29 silly get   { date: 'Thu, 01 Sep 2016 14:19:37 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     'cache-control': 'max-age=300',
+29 silly get     etag: '"E1X0K05H66HLFJXB2JE7Z7AKA"',
+29 silly get     age: '64',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-lcy1125-LCY',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1472739577.106293,VS0,VE0',
+29 silly get     vary: 'Accept-Encoding' } ]
+30 verbose etag https://registry.npmjs.org/respond from cache
+31 verbose get saving respond to C:\Users\yuanfei\AppData\Roaming\npm-cache\registry.npmjs.org\respond\.cache.json
+32 verbose correctMkdir C:\Users\yuanfei\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+33 silly addNameRange number 2 { name: 'respond', range: '>=1.4.0 <1.5.0', hasData: true }
+34 silly addNameRange versions [ 'respond', [ '0.9.0' ] ]
+35 verbose stack Error: No compatible version found: respond@'>=1.4.0 <1.5.0'
+35 verbose stack Valid install targets:
+35 verbose stack ["0.9.0"]
+35 verbose stack
+35 verbose stack     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:284:12)
+35 verbose stack     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:262:19)
+35 verbose stack     at setData (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:236:5)
+35 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+35 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+35 verbose stack     at fixName (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:29:5)
+35 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:173:7)
+35 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+35 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+36 verbose cwd D:\Code\PJ\app
+37 error Windows_NT 10.0.10586
+38 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "respond@1.4"
+39 error node v4.5.0
+40 error npm  v2.15.9
+41 error code ETARGET
+42 error notarget No compatible version found: respond@'>=1.4.0 <1.5.0'
+42 error notarget Valid install targets:
+42 error notarget ["0.9.0"]
+42 error notarget
+42 error notarget This is most likely not a problem with npm itself.
+42 error notarget In most cases you or one of your dependencies are requesting
+42 error notarget a package version that doesn't exist.
+43 verbose exit [ 1, true ]
