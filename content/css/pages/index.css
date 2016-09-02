@@ -1,0 +1,44 @@
+
+.barimg2 img
+{
+    width:100%;
+}
+.tabbable
+{
+    font-size:1.3em;
+}
+.tabbable>ul.nav.nav-tabs>li.active
+{
+
+    border-top:solid 3px red;
+    padding-top:2px;
+    border-left:solid 1px #eee;
+    border-right:solid 1px #eee;
+    border-bottom:0;
+}
+.tabbable>ul.nav.nav-tabs>li
+{
+
+    border-bottom:solid 1px #eee;
+}
+.tabbable>ul.nav.nav-tabs>li.active>a
+{color:#E83928;
+    border:0;
+}
+.full-width-tabs > ul.nav.nav-tabs {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border:0;
+
+}
+.full-width-tabs > ul.nav.nav-tabs > li {
+    float: none;
+    display: table-cell;
+}
+.full-width-tabs > ul.nav.nav-tabs > li > a {
+    text-align: center;
+}
+.take-all-space-you-can{
+    width:100%;
+}
