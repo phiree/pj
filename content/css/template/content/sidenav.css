@@ -1,0 +1,17 @@
+
+
+#sidebar {
+    position: fixed;
+    top:370px;
+    right:10px;
+    z-index: 99;
+
+}
+#sidebar div{
+    background-color:#fff;
+    width:40px;
+    height:40px;
+    margin:4px;
+    border:solid 1px #ddd;
+
+}
