@@ -1,0 +1,24 @@
+.bottom ul
+{
+    float: left;
+    list-style-type: none;
+}
+
+.bottom a,.bottom span
+{
+    display: block;
+    font-size: 1.3em;
+    color: #666;
+}
+.bottom a img
+{
+    width: 24.55%;
+}
+.bottom .hd img
+{
+    width:44.55%;
+}
+.bottom .header-nav
+{
+    padding: 0.25em 0;
+}

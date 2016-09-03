@@ -1,16 +1,19 @@
 .header
 { background-color:#fff;
-    padding-top:1em;
+    padding-top:3.2vw;
+
 
 }
 .header-top
 {
-    padding-bottom: 1em;
+    padding-bottom: 3.2vw;
     background-color:#fff;
+    padding-left:3.2vw;
+    padding-right:3.2vw;
 }
 .header-nav
 {
- border-top:solid 1px #dcdcdc;
+ border-top:solid 1px #acacac;
     padding:1em 0;
     margin:0;
     font-size:1.3em;
@@ -19,5 +22,5 @@
 }
 .logintext
 {
-    font-size:1.6em;
+    font-size: 4.9vw;
 }

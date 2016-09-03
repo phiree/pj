@@ -4,7 +4,7 @@
     position: fixed;
     top:370px;
     right:10px;
-    z-index: 99;
+    z-index:1031;
 
 }
 #sidebar div{
