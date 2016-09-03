@@ -44,5 +44,14 @@
 }
 .tab-pane label
 {
-    font-size:2em;
+    font-size:1.6em;
 }
+.tab-pane ul
+{
+    margin-top:1em;
+}
+.tab-pane ul li
+{
+
+}
+
