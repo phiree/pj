@@ -42,3 +42,7 @@
 .take-all-space-you-can{
     width:100%;
 }
+.tab-pane label
+{
+    font-size:2em;
+}
