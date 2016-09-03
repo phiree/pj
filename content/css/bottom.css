@@ -18,7 +18,12 @@
 {
     width:44.55%;
 }
-.bottom .header-nav
+.bottom .bottom-nav
 {
     padding: 0.25em 0;
+    border-top:solid 1px #acacac;
+    margin:0;
+    font-size:1.3em;
+    background-color: #f2f2f2;
+    width:100%;
 }

@@ -1,7 +1,14 @@
-
+.barimg2
+{
+    margin: 1.33vw;
+}
 .barimg2 img
 {
     width:100%;
+}
+.barimg4
+{
+    margin-top: 1.33vw;
 }
 .tabbable
 {
@@ -55,3 +62,15 @@
 
 }
 
+.zxbt{
+    border-top:solid 1px #dfdfdf;
+    padding: 2vw 0 2vw 3.2vw;
+    font-size:4.9vw;
+}
+.zxbt img{
+    margin-right: 1vw;
+}
+
+.more{
+    float: right;
+}
