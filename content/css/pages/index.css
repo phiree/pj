@@ -1,17 +1,21 @@
+.carousel-inner .item img
+{
+    width:100%;
+}
 .barimg2
 {
-    margin: 1vmin;
+    margin: 1vw;
 }
 
 .barimg2-left
 {
     float:left;
-     width:36.45vmin;margin-right:1vmin
+     width:36.45vw;margin-right:1vw
 }
 
 .barimg2-right
 {
-    width:60.55vmin;
+    width:60.55vw;
     float:right;
 }
 .barimg2 img
