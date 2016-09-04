@@ -1,3 +1,7 @@
+.bottom
+{
+    text-align: center;
+}
 .bottom ul
 {
     float: left;
@@ -12,11 +16,11 @@
 }
 .bottom a img
 {
-    width: 24.55%;
+    width: 10vmin;
 }
 .bottom .hd img
 {
-    width:44.55%;
+    width:10vmin;
 }
 .bottom .bottom-nav
 {

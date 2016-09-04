@@ -4,13 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,  initial-scale=1">
-
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>PuJing</title>
-
     <!-- Bootstrap -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-   <!-- <link href="content/css/bootstap.less.css" rel="stylesheet">-->
+    <!-- <link href="content/css/bootstap.less.css" rel="stylesheet">-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,27 +16,24 @@
     <script src="content/js/respond.min.js"></script>
     <![endif]-->
     <link href="content/css/site.css" rel="stylesheet">
-    <link href="content/css/template/content/header.css" rel="stylesheet">
+    <link href="content/css/template/content/header2.css" rel="stylesheet">
     <link href="content/css/pages/index.css" rel="stylesheet">
     <link href="content/css/template/content/sidenav.css" rel="stylesheet">
     <link href="content/css/bottom.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="navbar   navbar-fixed-top  header">
-
-    <div class="container header-top">
-        <img width="23.2%" src="content/images/logo.png"/>
-     <a href="#" style="vertical-align: middle;display: block;float: right" class="logintext">登录</a>
+<div class="header navbar-fixed-top">
+    <div class="header-top">
+        <img class="logo" src="content/images/logo.png"/>
+        <a href="#">登录</a>
     </div>
-    <div class="container header-nav">
+    <ul class="header-nav">
+        <li><a href="#">财税资讯</a></li>
+        <li><a href="#">热门活动</a></li>
+        <li><a href="#">我要加盟</a></li>
 
-            <div class="col-xs-4 text-center"><a href="#">财税资讯</a></div>
-            <div class="col-xs-4 text-center"><a href="#">热门活动</a></div>
-            <div class="col-xs-4 text-center"><a href="#">我要加盟</a></div>
-
-
-    </div>
+    </ul>
 </div>
 <!---->
 <div id="sidebar">
@@ -48,7 +43,7 @@
 </div>
 <!---->
 <div class="content">
-<!--图片轮播-->
+    <!--图片轮播-->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -82,12 +77,12 @@
     <!--图片轮播结束-->
     <!--第二行图片-->
     <div class="barimg2">
-        <div style="float:left;width:37%;margin-right:1.33vw">
-         <a href="#">  <img style="float:left" src="content/images/home_banner_2.png" /></a>
+        <div class="barimg2-left" style="float:left;width:37%;margin-right:1.33vw">
+            <a href="#"> <img style="float:left" src="content/images/home_banner_2.png"/></a>
         </div>
-        <div style="width:61.63%; float: right;">
-            <a href="javascript:void(0)"> <img src="content/images/home_banner_3.png"  /></a>
-                <a href="#">  <img class="barimg4" src="content/images/home_banner_4.png"  /></a>
+        <div class="barimg2-right" style="width:61.63%; float: right;">
+            <a href="javascript:void(0)"> <img src="content/images/home_banner_3.png"/></a>
+            <a href="#"> <img class="barimg4" src="content/images/home_banner_4.png"/></a>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -111,12 +106,12 @@
                 <div class="container">
                     <img src="content/images/home_cszx_img.png" style="width:26%">
                     <div style="width:70%; float:right;">
-                        <label  style="display: block;">营改增对房地开发产企业的不利影响</label>
+                        <label style="display: block;">营改增对房地开发产企业的不利影响</label>
                         <a href="#" style="display: block; text-align: right; width:100%">
                             <img style="width:30%; margin-right:2vw" src="content/images/home_cszx_bt.png"> </a>
                     </div>
 
-               </div>
+                </div>
 
                 <ul class="">
                     <li><a href="#">建筑业营改增后的10种节税开票技巧</a> <span>2016.06.01</span></li>
@@ -140,7 +135,7 @@
         </div>
     </div>
     <!--tabend-->
-    </div>
+</div>
 
 <div class="page-footer">
     <div style="text-align: center">
@@ -162,10 +157,12 @@
     </div>
 </div>
 <div class="navbar-fixed-bottom bottom" style="text-align: center">
-   <div class="container bottom-nav">
-       <div class="col-xs-4 text-center"><a href="#" ><img src="content/images/bottom_home_icon.png" ><span>首页</span></a></div>
-       <div class="col-xs-4 text-center"><a href="#" class="hd"><img src="content/images/bottom_hd_icon.png" ></a></div>
-       <div class="col-xs-4 text-center"><a href="#" ><img src="content/images/bottom_my_icon.png" ><span>我的</span></a></div>
+    <div class="container bottom-nav">
+        <div class="col-xs-4 text-center"><a href="#"><img src="content/images/bottom_home_icon.png"><span>首页</span></a>
+        </div>
+        <div class="col-xs-4 text-center"><a href="#" class="hd"><img src="content/images/bottom_hd_icon.png"></a></div>
+        <div class="col-xs-4 text-center"><a href="#"><img src="content/images/bottom_my_icon.png"><span>我的</span></a>
+        </div>
 
     </div>
 </div>

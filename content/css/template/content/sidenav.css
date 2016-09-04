@@ -2,16 +2,16 @@
 
 #sidebar {
     position: fixed;
-    top:370px;
-    right:10px;
+    top:60vmin;
+    right:8vmin;
     z-index:1031;
 
 }
 #sidebar div{
     background-color:#fff;
-    width:40px;
-    height:40px;
-    margin:4px;
+    width:5vmin;
+    height:5vmin;
+    margin:0.5vmin;
     border:solid 1px #ddd;
 
 }
