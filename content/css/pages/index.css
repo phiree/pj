@@ -17,7 +17,7 @@
 .tabbable>ul.nav.nav-tabs>li.active
 {
 
-    border-top:solid 3px red;
+    border-top:solid 3px #e73828;
     padding-top:2px;
     border-left:solid 1px #eee;
     border-right:solid 1px #eee;
@@ -29,7 +29,7 @@
     border-bottom:solid 1px #eee;
 }
 .tabbable>ul.nav.nav-tabs>li.active>a
-{color:#E83928;
+{color:#e73828;
     border:0;
 }
 .full-width-tabs > ul.nav.nav-tabs {
@@ -37,6 +37,8 @@
     width: 100%;
     table-layout: fixed;
     border:0;
+    font-size: 4.26vw;
+    padding: 0 3.2vw 3.2vw 3.2vw;
 
 }
 .full-width-tabs > ul.nav.nav-tabs > li {
@@ -51,21 +53,31 @@
 }
 .tab-pane label
 {
-    font-size:1.6em;
+    font-size:4.8vw;
+    line-height: normal;
 }
 .tab-pane ul
 {
     margin-top:1em;
+    list-style-type: none;
+    font-size: 3.73vw;
 }
 .tab-pane ul li
 {
-
+    margin: 2vw 0;
 }
-
+.tab-pane ul li span
+{
+    float: right;
+    padding-right: 3.2vw;
+    font-size: 3.2vw;
+    color: #a0a0a0;
+    line-height: 4.5vw;
+}
 .zxbt{
     border-top:solid 1px #dfdfdf;
-    padding: 2vw 0 2vw 3.2vw;
-    font-size:4.9vw;
+    padding: 2.8vw 0 2.8vw 3.2vw;
+    font-size:4.8vw;
 }
 .zxbt img{
     margin-right: 1vw;
@@ -73,4 +85,8 @@
 
 .more{
     float: right;
+    font-size: 3.46vw;
+    color: #888;
+    line-height: 8vw;
+    padding-right: 1.76vw;
 }
