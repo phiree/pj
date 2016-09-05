@@ -4,7 +4,7 @@ $(function(){
 
     $(document).scroll(function() {
        var scrollDistance=$(document).scrollTop();
-        
+
         if(scrollDistance>600)
        {
            $("#dvTop").show();
