@@ -1,26 +1,26 @@
 .header
 { background-color:#fff;
-    padding-top:3.2vmin;
+    padding-top:20px;
 }
 .header-top
 {
-    padding:0 3.2vmin 3.2vmin 3.2vmin;
+    padding:0 10px 10px 10px;
 }
 .header-top .logo
 {
-    max-width:20vmin;
-    max-height:20vmin;
+    max-width:100px;
+    max-height:100px;
 }
 .header-nav
 {
     border-top: solid 1px #acacac;
-    padding: 2.6vw 0;
+    padding: 20px 0;
     margin: 0;
-    font-size: 4.53vw;
+    font-size: 2em;
     background-color: #fafafa;
     width: 100%;
 }
 .logintext
 {
-    font-size: 4.8vw;
+    font-size:3em;
 }

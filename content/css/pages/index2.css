@@ -1,39 +1,40 @@
 .carousel-inner .item img
 {
-
+    width:100%;
 }
 .barimg2
 {
-
+    margin: 1vw;
 }
 
 .barimg2-left
 {
     float:left;
-
+     width:300px;margin-right:10px;
 }
 
 .barimg2-right
 {
-
+    width:430px;
+    float:right;
 }
 .barimg2 img
 {
-
+    width:100%;
 }
 .barimg4
 {
-
+    margin-top: 10px;
 }
 .tabbable
 {
-
+    font-size:1.3em;
 }
 .tabbable>ul.nav.nav-tabs>li.active
 {
 
     border-top:solid 3px #e73828;
-    padding-top:3vmin;
+    padding-top:3px;
     border-left:solid 1px #eee;
     border-right:solid 1px #eee;
     border-bottom:0;
@@ -56,8 +57,8 @@
     width: 100%;
     table-layout: fixed;
     border:0;
-
-
+    font-size: 2em;
+    padding: 0 10px 10px 10px;
 
 }
 .full-width-tabs > ul.nav.nav-tabs > li {
@@ -72,33 +73,35 @@
 }
 .tab-pane label
 {
-
+    font-size:3em;
     line-height: normal;
 }
 .tab-pane ul
 {
-
+    margin-top:1em;
     list-style-type: none;
-
+    font-size: 3em;
 }
 .tab-pane ul li
 {
-
+    margin: 10px 0;
 }
 .tab-pane ul li span
 {
     float: right;
-
+    padding-right: 20px;
+    font-size: 2em;
     color: #a0a0a0;
-
+    line-height: 30px;
 }
 .zxbt{
     border-top:solid 1px #dfdfdf;
-
+    padding: 20px 0 20px 20px;
+    font-size:3em;
 }
 .zxbt img{
-    margin-right: 1vmin;
-
+    margin-right: 8px;
+    width:20px;
 }
 .zxbt .zxbt-title
 {
@@ -107,18 +110,19 @@
 
 .zxbt-more{
     float: right;
-
+    font-size: 3em;
     color: #888;
-
+    line-height: 40px;
+    padding-right: 10px;
 }
 .zxbt-content
 {
-
+    width:500px;
     float:right;
 }
 .zxbt-content img
 {
-
+    width:200px; margin-right:10px;
 }
 .banmian div
 {
