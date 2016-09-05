@@ -1,27 +1,40 @@
 .header
-{ background-color:#fff;
-
-
-
+{
+    background-color:#fff;
 }
 .header-top
 {
-
+padding:25px 0;
+    vertical-align: middle;
+    margin:0 24px;
 }
-.header-top .logo
-{
 
-}
 .header-top .logintext
-{vertical-align: middle;display: block;float: right;}
+{
+    vertical-align: middle;
+    display:inline-block;
+    float: right;
+    font-size:36px;
+}
+.header-nav .container
+{
+    padding:0;
+}
+.header-nav .col-xs-4
+{
+    padding-left:24px;
+    padding-right:24px;
+}
+
 .header-nav
 {
     border-top: solid 1px #acacac;
-
-    margin: 0;
-
+    font-size:34px;
     background-color: #fafafa;
-    width: 100%;
+    padding-top:28px;
+    padding-bottom:28px;
+
+
 }
 .logintext
 {

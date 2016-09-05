@@ -4,11 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=750,user-scalable=no,target-densitydpi=device-dpi">
-
-
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>PuJing</title>
-
     <!-- Bootstrap -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
    <!-- <link href="content/css/bootstap.less.css" rel="stylesheet">-->
@@ -33,11 +30,11 @@
      <a href="#" class="logintext">登录</a>
     </div>
     <div class="container header-nav">
-
-            <div class="col-xs-4 text-center"><a href="#">财税资讯</a></div>
+<div class="row">
+            <div class="col-xs-4 text-left"><a href="#">财税资讯</a></div>
             <div class="col-xs-4 text-center"><a href="#">热门活动</a></div>
-            <div class="col-xs-4 text-center"><a href="#">我要加盟</a></div>
-
+            <div class="col-xs-4 text-right"><a href="#">我要加盟</a></div>
+</div>
 
     </div>
 </div>
@@ -94,12 +91,12 @@
     </div>
     <!--第二行图片End-->
     <!--tab-->
-
     <div class="zxbt">
-        <img  src="content/images/home_cszx_icon.png">
-        <span class="zxbt-title" >财税资讯 </span>
-        <div class="zxbt-more">更多》</div>
 
+        <img  src="content/images/home_cszx_icon.png">
+        <span class="zxbt-head" >财税资讯 </span>
+
+        <div class="zxbt-more">更多</div>
     </div>
     <div class="tabbable full-width-tabs">
         <ul class="nav nav-tabs">
@@ -110,16 +107,16 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="tab-one">
-                <div class="container-fluid">
-                    <div class="tab-pane-title"></div>
+
+
                     <img src="content/images/home_cszx_img.png"  >
                     <div class="zxbt-content" >
-                        <label  >营改增对房地开发产企业的不利影响</label>
-                        <a href="#"  >
-                            <img  src="content/images/home_cszx_bt.png"> </a>
+                        <span class="zxbt-title">营改增对房地开发产企业的不利影响</span>
+                        <a href="#">
+                         <span class="text-center zxbt-detail"><span>查看详情</span></span>   </a>
                     </div>
 
-               </div>
+
 
                 <ul class="">
                     <li><a href="#">建筑业营改增后的10种节税开票技巧</a> <span>2016.06.01</span></li>
@@ -144,30 +141,29 @@
     </div>
     <!--tabend-->
     </div>
-<div class="page-footer">
+<div class="page-footer text-center">
     <div  >
         <div class="banmian">
-            <div   >电脑版</div>
-            <div  >微信版</div>
+            <span   >电脑版</span>
+            <span  >微信版</span>
         </div>
         <div class="footer">
             <a href="#">关于普金</a>
             <a href="#">帮助中心</a>
             <a href="#">意见反馈</a>
         </div>
-        <div>
-            <span>Copyright 2015-2016 普金网版权所有</span>
-        </div>
-        <div>
-            <span>粤ICP备00160394号  </span>
+
+        <div class="copy">
+           <div> <span>Copyright 2015-2016 普金网版权所有</span></div>
+           <div> <span>粤ICP备00160394号  </span></div>
         </div>
     </div>
 </div>
 <div class="navbar-fixed-bottom bottom"  >
    <div class="container bottom-nav">
-       <div class="col-xs-4 text-center"><a href="#" ><img src="content/images/bottom_home_icon.png" ><span>首页</span></a></div>
-       <div class="col-xs-4 text-center"><a href="#" class="hd"><img src="content/images/bottom_hd_icon.png" ></a></div>
-       <div class="col-xs-4 text-center"><a href="#" ><img src="content/images/bottom_my_icon.png" ><span>我的</span></a></div>
+       <div class="col-xs-4 text-center bottom-nav-left"><a href="#" ><img src="content/images/bottom_home_icon.png" ><span>首页</span></a></div>
+       <div class="col-xs-4 text-center bottom-nav-center" ><a href="#" class="hd"><img src="content/images/bottom_hd_icon.png" ></a></div>
+       <div class="col-xs-4 text-center bottom-nav-right"><a href="#" ><img src="content/images/bottom_my_icon.png" ><span>我的</span></a></div>
 
     </div>
 </div>
