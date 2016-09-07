@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: "PingFang SC Light","Arial" ,"微软雅黑 Light";
+    text-align: center;
+    padding-top:0;
+}
+.header{
+    background-color: #e73828;
+    padding:0 24px;
+}
+.header span img {
+    float: left;
+    padding: 35px 0;
+}
+.header .title
+{
+    font-size:39px;
+    color: #fff;
+    display:inline-block;
+    line-height: 102px;
+}
+form
+{
+    font-size: 30px;
+    margin: 60px 60px 30px 60px;
+    color:#b4b4b4;
+
+}
+/*简单文本框*/
+form .input-plain
+{
+    border-radius: 6px;
+    border: solid 2px #ccc;
+    line-height: 86px;
+    margin-bottom: 28px;
+    padding-left: 20px;
+    width:514px;
+    font-weight:300;
+    font-size:30px;
+}
+form .input-with-icon-group
+{
+    border-radius: 6px;
+    text-align: center;
+    width:514px;
+    margin:0 auto;
+    margin-bottom:28px;
+
+}
+form .input-with-icon-group .input-group-addon
+{
+    width:90px;
+    background-color:transparent;
+    border: solid 2px #ccc;
+    border-right:0;
+}
+form .input-with-icon
+{
+
+    height: 90px;
+    margin-bottom: 28px;
+    padding-left: 20px;
+    font-weight:300;
+    font-size:30px;border: solid 2px #ccc;
+}
+form button
+{
+    border-radius: 6px;
+    background-color: #e73828;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    margin-top:60px;
+    padding: 21px;
+    width:538px;
+
+}

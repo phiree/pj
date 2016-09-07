@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=750,user-scalable=no,target-densitydpi=device-dpi">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PuJing</title>
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="content/css/bootstap.less.css" rel="stylesheet">-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="content/js/html5shiv.min.js"></script>
+    <script src="content/js/respond.min.js"></script>
+    <![endif]-->
+    <link href="content/css/template/member/site.css" rel="stylesheet">
+    <link href="content/css/template/member/header.css" rel="stylesheet">
+    <link href="content/css/pages/register.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 text-left header-back" ><a href="index.html"> <img src="content/images/back.png"></a></div>
+            <div class="col-xs-6 text-center"><span class="title">会员注册</span></div>
+            <div class="col-xs-3 text-right hide"><a href="#"> <img src="content/images/back.png"></a></div>
+        </div>
+    </div>
+
+
+
+</div>
+
+    <form class="loginform ">
+        <div class="input-group">
+
+            <input type="text" class="form-control exampleInputAmount" placeholder="用户名/手机号">
+        </div>
+        <div class="input-group">
+
+            <input type="text" class="form-control"  placeholder="输入手机验证码"><input type="button" value="获取短信验证码">
+        </div>
+        <div class="input-group">
+
+            <input type="text" class="form-control exampleInputAmount" placeholder="请输入密码">
+            <div class="input-group-addon displaypw"> 显示  </div>
+        </div>
+        <div class="input-group">
+
+            <input type="text" class="form-control exampleInputAmount" placeholder="请输入验证码">
+            <div class="input-group-addon displaypw"> 显示  </div>
+        </div>
+
+        <input type="submit" value="注    册"   class="login">
+        <div class="zcmm">
+            <span data-toggle="modal" data-target="#wechatModal">*注册既视为已阅读并同意<a href="#" style="color:#4d88fa;">《金财税服务条款》</a></span>
+        </div>
+    </form>
+
+<div id="wechatModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <h2 class="text-center">已注册成功</h2>
+
+            <form>
+                <div class="input-group">
+                    <div class="input-group-addon user_icon"> </div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="用户名/手机号">
+                </div>
+                <input type="button"  value="确    认" class="login">
+            <div>
+                <a href="#">跳过</a>
+            </div>
+            </form>
+        </div>
+
+    </div>
+    <div id="saved" style="margin:0 140px;padding:20px; position:absolute;left:0;right:0;top:300px; color:#fff; font-size:32px; background-color:#000; opacity:0.4; display:none; z-index:1090;">
+      <img src="content/images/back.png">  已保存
+    </div>
+</div>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="content/js/jquery.bcSwipe.min.js"></script>
+<script src="content/js/pages/register.js"></script>
+</body>
+</html>

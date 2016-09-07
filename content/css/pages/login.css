@@ -1,84 +1,12 @@
 
-.loginform
-{
-    padding:0 20px 0 106px;
-}
-.loginform .user_icon
+  .user_icon
 {
     background:url(../../images/user_icon.png) 50% 50% no-repeat;
-    width:86px;
-    border:solid 2px #ddd;
-    border-right:0;
+
 }
-.loginform .password_icon
+  .password_icon
 {
     background:url(../../images/password_icon.png) 50% 50% no-repeat;
-    width:86px;
-    border:solid 2px #ddd;
-    border-right:0;
-
-}
-.loginform  .displaypw
-{
-    border:0;
-    font-size:30px;
-    color:#333;
-}
-.loginform .remember input
-{
-    width:32px;
-    height:32px;
-    background: transparent;
 
 
-}
-.loginform .remember span
-{
-    display:inline-block;
-    padding-left:40px;
-    font-size:32px;
-}
-.loginform .form-control
-{
-    width:448px;
-    font-size: 30px;
-    padding: 44px 18px;
-    color: #b7b7b7;
-}
-.input-group
-{
-    height: 90px;
-    margin-bottom: 28px;
-}
-.input-group-addon {
-    background-color: #fff;
-}
-span.glyphicon.glyphicon-user
-{
-
-}
-span.glyphicon.glyphicon-folder-close
-{
-    padding: 0 22px;
-}
-.checkbox {
-    font-size: 32px;
-    margin: 35px 0;
-}
-input.login {
-    font-size: 38px;
-    background-color: #e73828;
-    color: #fff;
-    padding: 21px 0;
-    width: 538px;
-    border-radius: 6px;
-    border: none;
-}
-.zcmm {
-    font-size: 30px;
-    text-align: center;
-    margin: 24px 0;
-}
-.zcmm a {
-    margin: 0 10px;
 }
