@@ -75,7 +75,7 @@ margin-top:10px;
 {
 
     list-style-type: none;
-    padding:18px 0px;;
+    padding:18px 0;;
     line-height: 52px;
 
 }
@@ -193,4 +193,80 @@ margin-top:10px;
 }
 .footer {
     padding-bottom: 20px;
+}
+/*弹出窗口*/
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    margin-top:400px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+}
+.modal-content {
+
+   color:#33495d;
+
+
+}
+.modal-content h2
+{
+    font-size: 39px;
+    margin:0;
+    color:#fff;
+    background-color:#33495d;
+    padding:62px 0;
+}
+.modal-content h3
+{
+    font-size:36px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.modal-detail
+{
+    padding:20px 20px 140px 20px;
+}
+.modal-content .modal_left
+{
+    font-size: 32px;
+    float:left;
+   width: 50%;
+}
+.modal-content .modal_left>div
+{
+    margin:20px 0;
+}
+.modal-content .modal_right
+{
+    float:right;
+    width:50%;
+    padding-top:20px;
+}
+.modal-content .modal_right img
+{
+
+}
+.modal-content .modal_ok
+{
+    position:absolute;
+
+    margin:auto;
+
+    left:0;
+    right:0;
+    bottom:-60px;
+
 }

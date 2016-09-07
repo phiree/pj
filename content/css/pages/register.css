@@ -1,46 +1,27 @@
 
-.loginform
+form
 {
     padding:0 20px 0 106px;
 }
-.loginform .user_icon
-{
-    background:url(../../images/user_icon.png) 50% 50% no-repeat;
-    width:86px;
-    border:solid 2px #ddd;
-    border-right:0;
-}
-.loginform .password_icon
-{
-    background:url(../../images/password_icon.png) 50% 50% no-repeat;
-    width:86px;
-    border:solid 2px #ddd;
-    border-right:0;
 
+form  .displaypw {
+    border: 0;
+    font-size: 30px;
+    color: #333;
 }
-.loginform  .displaypw
-{
-    border:0;
-    font-size:30px;
-    color:#333;
-}
-.loginform .remember input
-{
-    width:32px;
-    height:32px;
-    background: transparent;
-
-
-}
-.loginform .remember span
+form .remember span
 {
     display:inline-block;
     padding-left:40px;
     font-size:32px;
 }
-.loginform .form-control
+form .checkcode
 {
-    width:448px;
+
+}
+form .form-control
+{
+
     font-size: 30px;
     padding: 44px 18px;
     color: #b7b7b7;
@@ -70,7 +51,7 @@ input.login {
     background-color: #e73828;
     color: #fff;
     padding: 21px 0;
-    width: 538px;
+
     border-radius: 6px;
     border: none;
 }

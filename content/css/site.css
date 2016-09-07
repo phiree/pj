@@ -1,7 +1,9 @@
 body{
-font-family: Arial,"微软雅黑 Light";
+    font-family: Arial,"微软雅黑 Light";
     padding-top:200px;
- padding-bottom:130px;
+     padding-bottom:130px;
+
+
 }
 a,a:hover,a:active,a:visited
 {

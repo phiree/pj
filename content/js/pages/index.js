@@ -7,12 +7,12 @@ $(function(){
 
         if(scrollDistance>600)
        {
-           $("#dvTop").show();
+           $("#dvTop").fadeIn(500);
 
        }
         else
        {
-           $("#dvTop").hide();
+           $("#dvTop").fadeOut(500);
        }
     });
 
