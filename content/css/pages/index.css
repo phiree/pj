@@ -227,7 +227,7 @@ margin-top:10px;
     margin:0;
     color:#fff;
     background-color:#33495d;
-    padding:62px 0;
+    padding:59px 0;
 }
 .modal-content h3
 {
@@ -237,23 +237,23 @@ margin-top:10px;
 }
 .modal-detail
 {
-    padding:20px 20px 140px 20px;
+    padding:20px 28px 140px 40px;
 }
 .modal-content .modal_left
 {
-    font-size: 32px;
+    font-size: 36px;
     float:left;
    width: 50%;
 }
 .modal-content .modal_left>div
 {
-    margin:20px 0;
+    margin:10px 0;
 }
 .modal-content .modal_right
 {
     float:right;
     width:50%;
-    padding-top:20px;
+    padding-top:45px;
 }
 .modal-content .modal_right img
 {
