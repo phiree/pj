@@ -16,7 +16,7 @@
     <script src="content/js/respond.min.js"></script>
     <![endif]-->
     <link href="content/css/template/member/site.css" rel="stylesheet">
-    <link href="content/css/template/member/header.css" rel="stylesheet">
+    <link href="content/css/template/member/member.css" rel="stylesheet">
     <link href="content/css/pages/register.css" rel="stylesheet">
 
 
@@ -24,45 +24,41 @@
 <body>
 
 <div class="navbar navbar-default navbar-fixed-top header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-3 text-left header-back" ><a href="index.html"> <img src="content/images/back.png"></a></div>
-            <div class="col-xs-6 text-center"><span class="title">会员注册</span></div>
-            <div class="col-xs-3 text-right hide"><a href="#"> <img src="content/images/back.png"></a></div>
+    <span><a href="index.html"><img src="content/images/back.png"></a></span>
+    <span class="title">普金注册</span>
+</div>
+
+<form>
+
+    <div class="input-group">
+        <input type="text" class="input-plain" placeholder="请输入手机号码">
+    </div>
+    <div class="input-group">
+        <input type="text" class="input-plain input-checkcode" placeholder="请输入验证码">
+        <input type="button" class="btn-checkcode" value="获取短信验证码"/>
+    </div>
+
+    <div class="input-group" style="position: relative;">
+        <input type="password" class="input-plain input-password" placeholder="请设置6-20位登录密码">
+        <input type="button" class="btn-displaypw" value="显示"/>
+    </div>
+
+    <div class="input-group">
+        <input type="text" class="form-control input-with-icon" placeholder="请输入验证码">
+        <div class="input-group-addon input-suffix validatecode"
+             style="background:url(content/images/checkcode.png) 50% 50% no-repeat">
         </div>
     </div>
 
 
+    <button class="login">注 册</button>
+    <div class="zcmm">
+        <span data-toggle="modal" data-target="#regsucmodal">*注册既视为已阅读并同意<a href="#"
+                                                                            style="color:#4d88fa;">《金财税服务条款》</a></span>
+    </div>
+</form>
 
-</div>
-
-    <form class="loginform ">
-        <div class="input-group">
-
-            <input type="text" class="form-control exampleInputAmount" placeholder="用户名/手机号">
-        </div>
-        <div class="input-group">
-
-            <input type="text" class="form-control"  placeholder="输入手机验证码"><input type="button" value="获取短信验证码">
-        </div>
-        <div class="input-group">
-
-            <input type="text" class="form-control exampleInputAmount" placeholder="请输入密码">
-            <div class="input-group-addon displaypw"> 显示  </div>
-        </div>
-        <div class="input-group">
-
-            <input type="text" class="form-control exampleInputAmount" placeholder="请输入验证码">
-            <div class="input-group-addon displaypw"> 显示  </div>
-        </div>
-
-        <input type="submit" value="注    册"   class="login">
-        <div class="zcmm">
-            <span data-toggle="modal" data-target="#wechatModal">*注册既视为已阅读并同意<a href="#" style="color:#4d88fa;">《金财税服务条款》</a></span>
-        </div>
-    </form>
-
-<div id="wechatModal" class="modal fade" role="dialog">
+<div id="regsucmodal" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -71,23 +67,22 @@
 
             <form>
                 <div class="input-group">
-                    <div class="input-group-addon user_icon"> </div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="用户名/手机号">
+                    <div class="input-group-addon user_icon"></div>
+                    <input type="text" class="form-control input-with-icon"  placeholder="请设置用户名">
                 </div>
-                <input type="button"  value="确    认" class="login">
-            <div>
-                <a href="#">跳过</a>
-            </div>
+                <input type="button" class="set_username_success" value="确认"/>
+                <div>
+                    <a href="#">跳过</a>
+                </div>
             </form>
         </div>
 
     </div>
-    <div id="saved" style="margin:0 140px;padding:20px; position:absolute;left:0;right:0;top:300px; color:#fff; font-size:32px; background-color:#000; opacity:0.4; display:none; z-index:1090;">
-      <img src="content/images/back.png">  已保存
+    <div id="saved"
+         style="">
+        <img src="content/images/back.png"> 已保存
     </div>
 </div>
-
-
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

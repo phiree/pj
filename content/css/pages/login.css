@@ -1,4 +1,5 @@
 
+
   .user_icon
 {
     background:url(../../images/user_icon.png) 50% 50% no-repeat;
@@ -10,3 +11,13 @@
 
 
 }
+  .remember
+  {
+      text-align: left;
+      margin-left:55px;
+  }
+  form .remember input
+  {
+      width:30px;
+      height:30px;
+  }

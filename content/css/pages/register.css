@@ -1,158 +1,61 @@
-
-.loginform
+form .input-group .input-checkcode
 {
-    padding:0 20px 0 106px;
+    width: 282px;
 }
-.loginform .user_icon
+form .input-group .validatecode
+{
+    width:157px;
+}
+form .btn-checkcode
+{
+    height:86px;
+    font-size:26px;
+     border:0;
+    border-radius: 6px;
+    margin-left:20px;
+    padding:0 15px;
+    background-color: #adadad;
+    color:white;
+}
+form .input-password
+{
+
+}
+form .btn-displaypw
+{
+    position:absolute;
+    top:15px;
+    background:none;
+    border:0;
+    margin-left:10px;
+}
+.zcmm
+{
+    font-size:26px;
+}
+.user_icon
 {
     background:url(../../images/user_icon.png) 50% 50% no-repeat;
-    width:86px;
-    border:solid 2px #ddd;
-    border-right:0;
+
 }
-.loginform .password_icon
+#regsucmodal .modal-content
 {
-    background:url(../../images/password_icon.png) 50% 50% no-repeat;
-    width:86px;
-    border:solid 2px #ddd;
-    border-right:0;
-
-}
-.loginform  .displaypw
-{
-    border:0;
-    font-size:30px;
-    color:#333;
-}
-.loginform .remember input
-{
-    width:32px;
-    height:32px;
-    background: transparent;
-
-
-}
-.loginform .remember span
-{
-    display:inline-block;
-    padding-left:40px;
-    font-size:32px;
-}
-.loginform .form-control
-{
-    width:448px;
-    font-size: 30px;
-    padding: 44px 18px;
-    color: #b7b7b7;
-}
-.input-group
-{
-    height: 90px;
-    margin-bottom: 28px;
-}
-.input-group-addon {
-    background-color: #fff;
-}
-span.glyphicon.glyphicon-user
-{
-
-}
-span.glyphicon.glyphicon-folder-close
-{
-    padding: 0 22px;
-}
-.checkbox {
-    font-size: 32px;
-    margin: 35px 0;
-}
-input.login {
-    font-size: 38px;
-    background-color: #e73828;
-    color: #fff;
-    padding: 21px 0;
-    width: 538px;
-    border-radius: 6px;
-    border: none;
-}
-.zcmm {
-    font-size: 30px;
-    text-align: center;
-    margin: 24px 0;
-}
-.zcmm a {
-    margin: 0 10px;
-}
-
-
-/*弹出窗口*/
-.modal {
-    text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-    .modal:before {
-        display: inline-block;
-        vertical-align: middle;
-        content: " ";
-        height: 100%;
-    }
-}
-
-.modal-dialog {
-    margin-top:200px;
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-    width: 80%;
-}
-.modal-content {
-
-
+    margin-top:400px;
 }
 .modal-content h2
 {
-    font-size: 39px;
-    margin:0;
-    padding:62px 0;
+    font-size:44px;
+    margin:40px 0;
 }
-.modal-content h3
+#saved
 {
-    font-size:36px;
-    font-weight:600;
-    margin-bottom:20px;
-}
-.modal-detail
-{
-    padding:20px 20px 140px 20px;
-}
-.modal-content .modal_left
-{
-    font-size: 32px;
-    float:left;
-    width: 50%;
-}
-.modal-content .modal_left>div
-{
-    margin:20px 0;
-}
-.modal-content .modal_right
-{
-    float:right;
-    width:50%;
-    padding-top:20px;
-}
-.modal-content .modal_right img
-{
-
-}
-.modal-content .modal_ok
-{
+    margin:0 130px;
+    padding:20px;
     position:absolute;
-
-    margin:auto;
-
-    left:0;
-    right:0;
-    bottom:-60px;
-
+    left:0;right:0;top:450px;
+    color:#fff;
+    font-size:32px;
+    background-color:#000;
+    opacity:0.4;
+    display:none; z-index:1090;
 }
