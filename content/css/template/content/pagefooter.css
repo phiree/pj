@@ -1,0 +1,111 @@
+
+.banmian a
+{
+    display: inline-block;
+    background-position:  top left
+;height: 60px ;width:135px;
+    line-height: 60px;
+    font-size: 30px;
+    color: #fff;
+}
+.banmian {
+    padding: 83px 0 44px 0;
+}
+.banmian a:first-child
+{
+    background-image: url("../../../../content/images/foot_web.png");
+}
+.banmian a:last-child
+{
+    background-image: url("../../../../content/images/foot_wechat.png");
+}
+.footer a
+{
+    font-size: 24px;
+    color: #adadad;
+    padding: 0 28px;
+}
+.copy
+{
+    font-size: 24px;
+    color: #adadad;
+}
+.footer {
+    padding-bottom: 20px;
+}
+/*弹出窗口*/
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    margin-top:400px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+}
+.modal-content {
+
+    color:#33495d;
+
+
+}
+.modal-content h2
+{
+    font-size: 39px;
+    margin:0;
+    color:#fff;
+    background-color:#33495d;
+    padding:59px 0;
+}
+.modal-content h3
+{
+    font-size:36px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.modal-detail
+{
+    padding:20px 28px 140px 40px;
+}
+.modal-content .modal_left
+{
+    font-size: 36px;
+    float:left;
+    width: 50%;
+}
+.modal-content .modal_left>div
+{
+    margin:10px 0;
+}
+.modal-content .modal_right
+{
+    float:right;
+    width:50%;
+    padding-top:45px;
+}
+.modal-content .modal_right img
+{
+
+}
+.modal-content .modal_ok
+{
+    position:absolute;
+
+    margin:auto;
+
+    left:0;
+    right:0;
+    bottom:-60px;
+
+}

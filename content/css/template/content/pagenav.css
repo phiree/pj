@@ -1,1 +1,19 @@
 /*页面导航*/
+.breadcrumb
+{
+    font-size:30px;
+    border-bottom: solid 1px #777;
+    padding:25px 24px;
+
+    background-color: transparent;
+
+}
+.breadcrumb>li>a
+{
+    color:#777;
+}
+.breadcrumb>li+li:before
+{
+    content: ">";
+}
+

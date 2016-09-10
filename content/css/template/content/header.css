@@ -18,37 +18,48 @@
     float: right;
     font-size:36px;
 }
+
+.header-nav
+{
+    border-bottom: solid 1px #acacac;
+    border-top: solid 1px #acacac;
+    font-size:34px;
+    background-color: #fafafa;
+
+}
+.header-nav.header-nav-home
+{
+    border-bottom: 0;
+}
 .header-nav .container
 {
     padding:0;
 }
+
 .header-nav a
 {
     display:inline-block;
-    padding:28px 0;
+    padding:24px 0;
 }
 .header-nav a.header-nav-active
 {
-    padding-bottom:26px;
-    border-bottom:solid 2px red;
+
+    padding-top:23px;
+    padding-bottom:22px;
+    border-bottom:solid 3px red;
     color:red;
+    position:relative;
+    top:1px;
+
 
 }
+
 .header-nav .col-xs-4
 {
     padding-left:24px;
     padding-right:24px;
 }
 
-.header-nav
-{
-    border-top: solid 1px #acacac;
-    font-size:34px;
-    background-color: #fafafa;
-
-
-
-}
 .logintext
 {
 
