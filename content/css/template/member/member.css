@@ -35,9 +35,8 @@ form .form-control
 form .input-group
 {
     margin:0 auto;
-    width:514px;
+    width:538px;
     font-weight:300;
-
     margin-bottom:28px;
 }
 /*一行只有文本输入框*/
@@ -45,11 +44,11 @@ form .input-plain
 {
     border-radius: 6px;
     border: solid 2px #ccc;
-    line-height: 86px;
+    line-height: 90px;
 
     padding-left: 20px;
-    height:86px;
-    width:514px;
+    height:90px;
+    width:538px;
 }
 /*一addon的样式*/
 form .input-group .input-group-addon
@@ -106,6 +105,29 @@ form input.set_username_success,
     margin-top:30px;
     padding: 21px;
     width:538px;
-    margin-bottom:15px;
+    margin-bottom:25px;
     display: inline-block;
+}
+form .btn-displaypw
+{
+    position: absolute;
+    background: none;
+    border: 0;
+    margin-left: 7px;
+    line-height: 88px;
+    color: #333;
+}
+.remember label {
+    font-weight: normal;
+    font-size: 32px;
+    color: #333;
+}
+.remember label span {
+    position: relative;
+    top: -4px;
+}
+.modal-content {
+    border-radius: 0;
+    border: solid 12px #ebebeb;
+    margin: 14px;
 }
