@@ -1,0 +1,63 @@
+.bottom
+{
+    text-align: center;
+
+}
+.bottom ul
+{
+    float: left;
+    list-style-type: none;
+}
+
+.bottom a,.bottom span
+{
+    display: block;
+    font-size: 26px;
+    color: #666;
+}
+.bottom a img
+{
+
+}
+.bottom .hd img
+{
+
+}
+.bottom .bottom-nav
+{
+
+    padding: 0.25em 0;
+    border-top:solid 1px #acacac;
+    margin:0;
+    font-size:1.3em;
+    background-color: #f2f2f2;
+    width:100%;
+}
+
+.bottom .bottomhome,.bottom .bottommy
+
+{
+    padding-top:65px;
+    height:102px;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+
+
+}
+.bottom .bottommy
+{
+    background-image: url(../../../images/bottom_my_icon.png);
+}
+.bottom .active-my
+{
+    background-image: url(../../../images/bottom_my_down.png);
+}
+.bottom .bottomhome
+{
+    background-image: url(../../../images/bottom_home_icon.png);
+}
+.bottom .active-home
+{
+
+    background-image: url(../../../images/bottom_home_down.png);
+}

@@ -160,7 +160,7 @@ margin-top:10px;
 }
 
 
-.banmian span
+.banmian a
 {
     display: inline-block;
     background-position:  top left
@@ -172,11 +172,11 @@ margin-top:10px;
 .banmian {
     padding: 83px 0 44px 0;
 }
-.banmian span:first-child
+.banmian a:first-child
 {
   background-image: url("../../../content/images/foot_web.png");
 }
-.banmian span:last-child
+.banmian a:last-child
 {
     background-image: url("../../../content/images/foot_wechat.png");
 }
