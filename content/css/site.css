@@ -10,3 +10,31 @@ a,a:hover,a:active,a:visited,a:link
     color:black;
     text-decoration: none;
 }
+.pagination
+{font-size:30px;}
+.pagination>li>a,
+.pagination>li>a:link,
+.pagination>li>a:visited,
+.pagination>li>a:hover
+{
+    display: inline-block;
+    padding:10px 24px;
+    border:solid 1px #333;
+    margin-right:22px;
+    color:#000;
+}
+.pagination>li.active>a
+{
+    border:0;
+    padding:11px 25px;
+    background-color: red;
+    color:white;
+}
+.pagination>li.pager-first>a,
+.pagination>li.pager-pre>a,
+.pagination>li.pager-next>a,
+.pagination>li.pager-last>a
+{
+    padding-left:10px;
+    padding-right:10px;
+}
