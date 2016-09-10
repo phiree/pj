@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="952e780f-3549-467d-a96b-6f1d27d0fb4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_detail_finance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/css/template/content/cms.css" />
+    <list default="true" id="952e780f-3549-467d-a96b-6f1d27d0fb4e" name="Default" comment="dd">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_list_finance.html" afterPath="$PROJECT_DIR$/08_list_finance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/pages/list_finance.css" afterPath="$PROJECT_DIR$/content/css/pages/list_finance.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/site.css" afterPath="$PROJECT_DIR$/content/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/template/content/pagenav.css" afterPath="$PROJECT_DIR$/content/css/template/content/pagenav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/template/content/cms.css" afterPath="$PROJECT_DIR$/content/css/template/content/cms.css" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +23,7 @@
     <favorites_list name="app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.23559321">
+    <splitter split-orientation="horizontal" split-proportion="0.56864405">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
@@ -71,21 +66,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sidenav.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sidenav.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/css/template/content/sidenav.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.548718">
+                <state vertical-scroll-proportion="-10.354838">
                   <caret line="25" column="8" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cms.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="cms.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/content/css/template/content/cms.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.612904">
-                  <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.617866">
+                  <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
                   <folding>
                     <element signature="e#10#89#0" expanded="false" />
                     <element signature="e#117#186#0" expanded="false" />
@@ -96,7 +91,6 @@
                     <element signature="e#586#636#0" expanded="false" />
                     <element signature="e#649#691#0" expanded="false" />
                     <element signature="e#701#770#0" expanded="false" />
-                    <element signature="e#790#879#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -174,7 +168,7 @@
           <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/css/pages/register.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-19.870968">
                   <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
                   <folding />
                 </state>
@@ -194,13 +188,20 @@
           <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/content/css/site.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.13504274">
+                <state vertical-scroll-proportion="0.382134">
                   <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
                   <folding>
                     <element signature="e#334#453#0" expanded="false" />
                     <element signature="e#478#562#0" expanded="false" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="icon_view_counter.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/content/images/icon_view_counter.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
@@ -302,11 +303,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/content/css/template/content/header.css" />
         <option value="$PROJECT_DIR$/content/css/template/content/pagenav.css" />
-        <option value="$PROJECT_DIR$/content/css/template/content/cms.css" />
         <option value="$PROJECT_DIR$/08_list_finance.html" />
         <option value="$PROJECT_DIR$/content/css/pages/list_finance.css" />
         <option value="$PROJECT_DIR$/09_detail_finance.html" />
         <option value="$PROJECT_DIR$/content/css/site.css" />
+        <option value="$PROJECT_DIR$/content/css/template/content/cms.css" />
       </list>
     </option>
   </component>
@@ -689,18 +690,24 @@
       <option name="project" value="LOCAL" />
       <updated>1473496251904</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="dd">
+      <created>1473501318131</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1473501318131</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13189772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3768506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25706595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -754,13 +761,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/css/template/content/sidenav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -999,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/pages/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_passwordrecovery_step2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1126,25 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/content/cms.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.612904">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#10#89#0" expanded="false" />
-            <element signature="e#117#186#0" expanded="false" />
-            <element signature="e#216#301#0" expanded="false" />
-            <element signature="e#329#414#0" expanded="false" />
-            <element signature="e#447#473#0" expanded="false" />
-            <element signature="e#499#537#0" expanded="false" />
-            <element signature="e#586#636#0" expanded="false" />
-            <element signature="e#649#691#0" expanded="false" />
-            <element signature="e#701#770#0" expanded="false" />
-            <element signature="e#790#879#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/css/pages/list_finance.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.72131145">
@@ -1174,14 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/content/sidenav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.548718">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09_detail_finance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.774193">
@@ -1203,13 +1168,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/images/icon_view_counter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/pages/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.870968">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13504274">
+        <state vertical-scroll-proportion="0.382134">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#334#453#0" expanded="false" />
             <element signature="e#478#562#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/template/content/sidenav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.354838">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/template/content/cms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.617866">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#10#89#0" expanded="false" />
+            <element signature="e#117#186#0" expanded="false" />
+            <element signature="e#216#301#0" expanded="false" />
+            <element signature="e#329#414#0" expanded="false" />
+            <element signature="e#447#473#0" expanded="false" />
+            <element signature="e#499#537#0" expanded="false" />
+            <element signature="e#586#636#0" expanded="false" />
+            <element signature="e#649#691#0" expanded="false" />
+            <element signature="e#701#770#0" expanded="false" />
           </folding>
         </state>
       </provider>
