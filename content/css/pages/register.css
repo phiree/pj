@@ -27,7 +27,7 @@ form .btn-displaypw
     position: absolute;
     background: none;
     border: 0;
-    margin-left: 2%;
+    margin-left: -2%;
     line-height: 88px;
     color: #333;
 }
