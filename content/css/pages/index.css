@@ -22,72 +22,23 @@ margin-right:10px;
 {
 margin-top:10px;
 }
-.tabbable
+.list-header
 {
-    padding:0 24px;
+    border-top:solid 1px #dfdfdf;
+    padding-left:50px;
+    background: url(../../../content/images/home_cszx_icon.png) 1.5% 50% no-repeat;
 }
-.tabbable>ul.nav.nav-tabs>li.active
+.item-row
 {
-
-    border-top:solid 3px #e73828;
-    border-left:solid 1px #eee;
-    border-right:solid 1px #eee;
-    border-bottom:0;
-}
-.tabbable>ul.nav.nav-tabs>li
-{
-
-    border-bottom:solid 1px #eee;
-    padding:10px 0;
-    font-size:32px;
-}
-.tabbable>ul.nav.nav-tabs>li.active>a
-{color:#e73828;
     border:0;
+    padding:0;
+    margin:0;
 }
-
-.full-width-tabs > ul.nav.nav-tabs {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border:0;
-}
-.full-width-tabs > ul.nav.nav-tabs > li {
-    float: none;
-    display: table-cell;
-}
-.full-width-tabs > ul.nav.nav-tabs > li > a {
-    text-align: center;
-}
-.take-all-space-you-can{
-    width:100%;
-}
-.tabbable .tab-content
+.item-content-with-image
 {
-    padding-top:20px;
-}
-.tab-pane label
-{
-
-    line-height: normal;
-}
-.tab-pane ul
-{
-
-    list-style-type: none;
-    padding:18px 0;;
-    line-height: 52px;
-
-}
-.tab-pane ul li
-{
-    font-size: 28px;
-}
-.tab-pane ul li span
-{
-    float: right;
-    font-size: 24px;
-    color: #a0a0a0;
+    float:right;
+    width:420px;
+    padding-right:30px;
 
 }
 .zxbt{
@@ -96,30 +47,8 @@ margin-top:10px;
     padding:25px 24px;
     border-top:solid 1px #dfdfdf;
 
-
 }
 
-.zxbt img{
-
-
-     position:relative;
-    top:-8px;
-    margin-right:20px;
-}
-
-.zxbt> .zxbt-head
-{
-    font-size: 36px;
-}
-
-.zxbt-more{
-    background:url(../../../content/images/arrow_right.png) center right no-repeat;
-    float: right;
-    font-size:26px;
-    padding-right:28px;
-    color: #888;
-
-}
 .zxbt-content
 {
     vertical-align: middle;

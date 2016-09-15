@@ -1,9 +1,4 @@
 
-
-.item-content .item-title {
-
-}
-
 .item-content .item-footer
 {
 
@@ -13,6 +8,20 @@
 .item-content .item-summary
 {
      text-indent: 25px;
-    line-height: 1.5;
+     line-height: 1.5;
 
+}
+ .tabbable .active
+ {
+     background-color: #fff;
+     top:1px;
+ }
+.recommend-more
+{
+    float:right;
+    position: relative;
+    top:-66px;
+    font-size:26px;
+    color:#666;
+    padding-right:20px;
 }

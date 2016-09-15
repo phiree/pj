@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="952e780f-3549-467d-a96b-6f1d27d0fb4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/css/pages/detail_finance.css" />
+    <list default="true" id="952e780f-3549-467d-a96b-6f1d27d0fb4e" name="Default" comment="dd">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/images/activity_list_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_list_activity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_member_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/css/pages/activity_list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/css/pages/member_index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_login.html" afterPath="$PROJECT_DIR$/02_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_04_05_register.html" afterPath="$PROJECT_DIR$/03_04_05_register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06_passwordrecovery_step1.html" afterPath="$PROJECT_DIR$/06_passwordrecovery_step1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_passwordrecovery_step2.html" afterPath="$PROJECT_DIR$/07_passwordrecovery_step2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_detail_finance.html" afterPath="$PROJECT_DIR$/09_detail_finance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/pages/detail_finance.css" afterPath="$PROJECT_DIR$/content/css/pages/detail_finance.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/pages/index.css" afterPath="$PROJECT_DIR$/content/css/pages/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/site.css" afterPath="$PROJECT_DIR$/content/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/css/template/content/cms.css" afterPath="$PROJECT_DIR$/content/css/template/content/cms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content/css/template/member/header.css" afterPath="$PROJECT_DIR$/content/css/template/account/header.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content/css/template/member/member.css" afterPath="$PROJECT_DIR$/content/css/template/account/account.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content/css/template/member/site.css" afterPath="$PROJECT_DIR$/content/css/template/account/site.css" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +40,24 @@
     <favorites_list name="app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32088286">
+    <splitter split-orientation="horizontal" split-proportion="0.4394319">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/css/pages/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+                <state vertical-scroll-proportion="-0.7096774">
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/content/css/template/account/site.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.096774">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -41,61 +66,8 @@
           <file leaf-file-name="pagefooter.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/css/template/content/pagefooter.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.580645">
-                  <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="31" column="10" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="52" />
-                  <folding>
-                    <element signature="e#717#861#0" expanded="false" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sidenav.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/template/content/sidenav.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="25" column="8" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cms.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/css/template/content/cms.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0494382">
-                  <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#628#670#0" expanded="false" />
-                    <element signature="e#680#749#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/template/content/header.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+                <state vertical-scroll-proportion="-3.548387">
+                  <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -104,12 +76,21 @@
           <file leaf-file-name="02_login.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="34" column="29" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="29" />
+                <state vertical-scroll-proportion="-8.5161295">
+                  <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
                   <folding>
-                    <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="03_04_05_register.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/03_04_05_register.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.2580647">
+                  <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -117,18 +98,28 @@
           <file leaf-file-name="06_passwordrecovery_step1.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/06_passwordrecovery_step1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+                <state vertical-scroll-proportion="-8.5161295">
+                  <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bottom.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/template/content/bottom.css">
+          <file leaf-file-name="detail_finance.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/content/css/pages/detail_finance.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.6972477">
+                  <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="07_passwordrecovery_step2.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/07_passwordrecovery_step2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="6.419355">
+                  <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -138,33 +129,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="member.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/template/member/member.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-                  <folding>
-                    <marker date="1473517104579" expanded="true" signature="499:531" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/css/pages/register.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.935484">
-                  <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+                <state vertical-scroll-proportion="-6.387097">
+                  <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/pages/login.css">
+          <file leaf-file-name="activity_list.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/content/css/pages/activity_list.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+                <state vertical-scroll-proportion="-4.2580647">
+                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="08_list_finance.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/08_list_finance.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-8.258064">
+                  <caret line="76" column="14" selection-start-line="70" selection-start-column="6" selection-end-line="76" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -173,73 +162,38 @@
           <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/content/css/site.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+                <state vertical-scroll-proportion="-12.645162">
+                  <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
                   <folding>
+                    <element signature="e#4#129#0" expanded="false" />
+                    <element signature="e#166#213#0" expanded="false" />
                     <element signature="e#334#455#0" expanded="false" />
                     <element signature="e#480#569#0" expanded="false" />
+                    <element signature="e#1686#1728#0" expanded="false" />
+                    <element signature="e#1829#2072#0" expanded="false" />
+                    <element signature="e#2085#2108#0" expanded="false" />
+                    <element signature="e#2145#2269#0" expanded="false" />
+                    <element signature="e#2299#2377#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="icon_view_counter.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/images/icon_view_counter.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pagenav.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/template/content/pagenav.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.548387">
-                  <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="list_finance.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/css/pages/list_finance.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.7096774">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail_finance.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/css/pages/detail_finance.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5438202">
-                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="09_detail_finance.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="09_detail_finance.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/09_detail_finance.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.935484">
-                  <caret line="62" column="36" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.34633029">
+                  <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
                   <folding>
                     <element signature="e#717#861#0" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="item_image_1.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/images/item_image_1.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -278,25 +232,29 @@
         <option value="$PROJECT_DIR$/content/css/template/member/header.css" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/content/js/pages/register.js" />
-        <option value="$PROJECT_DIR$/02_login.html" />
         <option value="$PROJECT_DIR$/content/css/pages/login.css" />
         <option value="$PROJECT_DIR$/03_register.html" />
-        <option value="$PROJECT_DIR$/07_passwordrecovery_step2.html" />
         <option value="$PROJECT_DIR$/content/css/template/member/member.css" />
-        <option value="$PROJECT_DIR$/06_passwordrecovery_step1.html" />
         <option value="$PROJECT_DIR$/content/css/template/content/bottom.css" />
-        <option value="$PROJECT_DIR$/content/css/pages/index.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/content/css/template/content/header.css" />
         <option value="$PROJECT_DIR$/content/css/template/content/pagenav.css" />
         <option value="$PROJECT_DIR$/08_list_finance.html" />
         <option value="$PROJECT_DIR$/content/css/pages/list_finance.css" />
-        <option value="$PROJECT_DIR$/content/css/site.css" />
         <option value="$PROJECT_DIR$/content/css/template/content/pagefooter.css" />
         <option value="$PROJECT_DIR$/content/css/pages/register.css" />
+        <option value="$PROJECT_DIR$/02_login.html" />
+        <option value="$PROJECT_DIR$/03_04_05_register.html" />
+        <option value="$PROJECT_DIR$/06_passwordrecovery_step1.html" />
+        <option value="$PROJECT_DIR$/07_passwordrecovery_step2.html" />
+        <option value="$PROJECT_DIR$/content/css/pages/member_index.css" />
+        <option value="$PROJECT_DIR$/content/css/pages/activity_list.css" />
+        <option value="$PROJECT_DIR$/10_list_activity.html" />
         <option value="$PROJECT_DIR$/content/css/template/content/cms.css" />
-        <option value="$PROJECT_DIR$/09_detail_finance.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/content/css/pages/index.css" />
+        <option value="$PROJECT_DIR$/content/css/site.css" />
         <option value="$PROJECT_DIR$/content/css/pages/detail_finance.css" />
+        <option value="$PROJECT_DIR$/09_detail_finance.html" />
       </list>
     </option>
   </component>
@@ -306,10 +264,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -404,62 +361,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,18 +381,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\PJ\app\content\images" />
+      <recent name="D:\Code\PJ\app" />
+      <recent name="D:\Code\PJ\app\content\css\pages" />
+      <recent name="D:\Code\PJ\app\content\css\template\content" />
+      <recent name="D:\Code\PJ\app\content\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\PJ\app\content\css\template\content" />
       <recent name="D:\Code\PJ\app\content\css" />
       <recent name="D:\Code\PJ\app\content\css\pages" />
       <recent name="D:\Code\PJ\app\content\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\PJ\app\content\css\pages" />
-      <recent name="D:\Code\PJ\app\content\css\template\content" />
-      <recent name="D:\Code\PJ\app" />
-      <recent name="D:\Code\PJ\app\content\images" />
-      <recent name="D:\Code\PJ\app\content\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -697,17 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1473517671584</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="dd">
+      <created>1473771110471</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1473771110471</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23951715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32032302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32425067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25706595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -762,35 +677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/css/pages/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/bootstap.less.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/js/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/content/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/css/template/content/sidenav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -825,10 +711,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#717#861#0" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -929,7 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/member/header.css">
+    <entry file="file://$PROJECT_DIR$/content/css/template/account/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4960212">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
@@ -964,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/member/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/js/pages/register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -978,38 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_passwordrecovery_step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_04_05_register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_passwordrecovery_step1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/member/member.css">
+    <entry file="file://$PROJECT_DIR$/content/css/template/account/account.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-          <folding>
-            <marker date="1473517104579" expanded="true" signature="499:531" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,32 +871,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/pages/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="10" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="e#717#861#0" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,27 +890,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="29" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/images/item_image_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_list_finance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13693693">
-          <caret line="17" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/images/icon_view_counter.png">
@@ -1099,79 +908,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/site.css">
+    <entry file="file://$PROJECT_DIR$/02_login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state vertical-scroll-proportion="-8.5161295">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
           <folding>
-            <element signature="e#334#455#0" expanded="false" />
-            <element signature="e#480#569#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_04_05_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2580647">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_passwordrecovery_step1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5161295">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_passwordrecovery_step2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.419355">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/css/pages/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.935484">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/pages/member_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_member_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3027523">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_list_activity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4977064">
+          <caret line="103" column="52" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="52" />
+          <folding>
+            <element signature="n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/template/account/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.096774">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/pages/activity_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2580647">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/template/content/cms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#79#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_list_finance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.258064">
+          <caret line="76" column="14" selection-start-line="70" selection-start-column="6" selection-end-line="76" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/css/template/content/pagenav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.548387">
+        <state vertical-scroll-proportion="0.050458714">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/content/pagefooter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.580645">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/css/pages/list_finance.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7096774">
+        <state vertical-scroll-proportion="0.050458714">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.645162">
+          <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+          <folding>
+            <element signature="e#4#129#0" expanded="false" />
+            <element signature="e#166#213#0" expanded="false" />
+            <element signature="e#334#455#0" expanded="false" />
+            <element signature="e#480#569#0" expanded="false" />
+            <element signature="e#1686#1728#0" expanded="false" />
+            <element signature="e#1829#2072#0" expanded="false" />
+            <element signature="e#2085#2108#0" expanded="false" />
+            <element signature="e#2145#2269#0" expanded="false" />
+            <element signature="e#2299#2377#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29587156">
+          <caret line="170" column="10" selection-start-line="96" selection-start-column="4" selection-end-line="170" selection-end-column="10" />
+          <folding>
+            <element signature="e#717#861#0" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/pages/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/template/content/pagefooter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.548387">
+          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/css/pages/detail_finance.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6972477">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09_detail_finance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.935484">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.34633029">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
           <folding>
             <element signature="e#717#861#0" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/template/content/cms.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0494382">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#628#670#0" expanded="false" />
-            <element signature="e#680#749#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/pages/detail_finance.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5438202">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
