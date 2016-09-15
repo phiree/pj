@@ -3,9 +3,16 @@
     margin-bottom:0;
     border-bottom: 0;
 }
-.list-header
-{
 
-    padding-left:20px;
-    background: url(../../../content/images/activity_list_header.png) left 50% no-repeat;
+.list-activity
+{
+    border-top:solid 1px red ;
+}
+hr{
+    border-top: dotted 1px #cdcdcd;
+    margin:0 24px;
+}
+.item-row
+{
+    border:0;
 }
