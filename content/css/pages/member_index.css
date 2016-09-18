@@ -1,48 +1,176 @@
-
-.vertical-align {
-    display: flex;
-    flex-direction: row;
+.member-row-1 {
+    margin-top: 30px;
 }
 
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Optional, to align inner items
-                              horizontally inside the column */
+.circular-image {
+
+    border-radius: 50%;
+    float: right;
 }
 
-/**
- *  Do NOT include this part into your stylesheet.
- *  "flex: 1" or "flex-grow: 1" is added to make the inner div
- *  - Which is also a flex-item - take up all the horizontal space
- *  available space inside the flex container (.col-* elements)
- */
-.vertical-align > [class^="col-"] > div,
-.vertical-align > [class*=" col-"] > div {
-    /* flex: 1; */
-    flex-grow: 1;
+.user-level {
+    top: 40px;
+}
+
+.user-level span {
+    display: block;
+}
+
+.user-level span:first-child {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+.user-level span:last-child {
+    font-size: 30px;
+}
+
+.user-point {
+    top: 70px;
+    float: right;
+
+    font-size: 30px;
+    color: orangered;
+}
+
+.my-share {
+
+    text-align: center;
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    background-color: #eee;
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+
+.my-share span {
+    padding: 20px 0;
+    width: 50%;
+    display: inline-block;
+
+}
+
+.my-share span:first-child {
+    float: left;
+    border-right: solid 1px #ddd;
+    background: url(../../images/member/pjb.png) 20% 50% no-repeat;
+    padding-left: 50px;
+}
+
+.my-share span:last-child {
+    background: url(../../images/member/share.png) 20% 50% no-repeat;
+
+    float: right;
+}
+.conner-num
+{
+    color:red;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border: solid 2px red;
+    background-color: #fff;
+    right: 55px;
+    top: -14px;
+}
+.member-row-2 {
+    border-top: solid 1px #ddd;
+    padding: 30px 0;
+    font-size: 30px;
+    border-bottom: solid 10px #ddd;
+}
+
+.member-row-2 a {
+    display: inline-block;
+    padding-top: 60px;
+
+}
+
+.member-row-2 a.dfk {
+    background: url(../../images/member/dfk_icon.png) top center no-repeat;
+
+}
+
+.member-row-2 a.dsh {
+    background: url(../../images/member/dsh_icon.png) top center no-repeat;
+
+}
+
+.member-row-2 a.dpj {
+    background: url(../../images/member/dpj_icon.png) top center no-repeat;
+
+}
+.member-row-3
+{
+    border-bottom: solid 10px #eee;
+}
+
+.member-row-2 a.tk {
+    background: url(../../images/member/dk_icon.png) top center no-repeat;
+
+}
+.member-row-3 ul{
+
+    list-style-type: none;
+    margin-left:24px;
+    padding:0;
+}
+.member-row-3 li
+{
+
+    font-size:32px;
+    padding-left:60px;
+
+}
+.member-row-3 li a
+{
+    border-bottom: solid 1px #eee;
+    display:block;
+    background: url(../../images/member/jiantu_icon.png)  97% center no-repeat;
+
+    margin-left:50px;
+    padding:30px 20px 30px 0;
+
+
+}
+.member-row-3 li:last-child a
+{
+    border:0;
+}
+.member-row-3 li span {
+    vertical-align: middle;
+    float:right;
+    padding-right: 30px;
+    color:red;
+}
+.member-row-3 li.zhgl
+{
+    background: url(../../images/member/zhgl_icon.png) center left no-repeat;
+
+}
+.member-row-3 li.xxzx
+{
+    background: url(../../images/member/xxzx_icon.png) center left no-repeat;
+
+}
+.member-row-3 li.mfxz
+{
+    background: url(../../images/member/mfxz_icon.png) center left no-repeat;
+
+}
+.member-row-3 li.wdsck
+{
+    background: url(../../images/member/wdsck_icon.png) center left no-repeat;
+
+}
+.member-row-3 li.lxkf
+{
+    background: url(../../images/member/lxkf_icon.png) center left no-repeat;
+
 }
 
 
-/**
- * S T Y L I N G
- ==================================*/
-
-.vertical-align > div:first-child {
-    background-color: mediumaquamarine;
-    /* This is just for demonstration of
-       padding-box of the columns.
-
-       I added this background to show
-       the height of the columns         */
-}
-
-.vertical-align > div:last-child {
-    background-color: gold;
-    /* This is just for demonstration of
-       padding-box of the columns.
-
-       I added this background to show
-       the height of the columns         */
-}

@@ -13,7 +13,12 @@
         font-size: 0.8em; /* 0.8x default size */
     }
 }
-.glyphicon-arrow-left
+.glyphicon-big
 {
-
+    width:60px;
+    height:60px;
+}
+.glyphicon-member-zhgl
+{
+    background-image: url(../images/member/zhgl_icon.png);
 }
