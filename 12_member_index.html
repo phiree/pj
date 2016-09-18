@@ -34,7 +34,7 @@
     </div>
     <div class="container header-nav">
         <div class="row">
-            <div class="col-xs-4 text-left "><a  href="08_list_finance.html">财税资讯</a></div>
+            <div class="col-xs-4 text-left "><a href="08_list_finance.html">财税资讯</a></div>
             <div class="col-xs-4 text-center"><a class="header-nav-active" href="10_list_activity.html">热门活动</a></div>
             <div class="col-xs-4 text-right"><a href="#">我要加盟</a></div>
         </div>
@@ -45,23 +45,30 @@
 <!---->
 
 <!---->
-<div class="content">
+<div class="content container">
 
-    <div class="member-row-1">
-        <img class="avatar"/>
-        <div>
-            <span>习大大</span>
-            <span>个人会员</span>
+    <div class="row member-row-1  vertical-align ">
+        <div class="col-xs-4">
+            <img class="avatar"  src="content/images/member/user_img.png"/>
         </div>
-        <span>320积分</span>
-        <div>
-            <span 我的普金宝></span>
-            <span 我的分享></span>
+
+        <div class="col-xs-3">
+                <span>习大大</span>
+                <span>个人会员</span>
+
         </div>
+        <div class="col-xs-3 col-xs-push-2">
+            <span>320积分</span>
+            </div>
+    </div>
+
+    <div class="clearfix">
+        <span> 我的普金宝 </span>
+        <span> 我的分享 </span>
 
     </div>
 
-    <div class="member-row-2">
+    <div class="member-row-2 row">
         <div class="list-header list-header-redbar clearfix">
             <span>我的订单</span>
             <span>查看所有订单</span>
@@ -90,80 +97,80 @@
 
 
     <div class="page-footer text-center">
-    <div>
-        <div class="banmian">
-            <a href="#">电脑版</a>
-            <a href="#" data-toggle="modal" data-target="#wechatModal">微信版</a>
-        </div>
-        <div class="footer">
-            <a href="#">关于普金</a>
-            <a href="#">帮助中心</a>
-            <a href="#">意见反馈</a>
-        </div>
-
-        <div class="copy">
-            <div><span>Copyright 2015-2016 普金网版权所有</span></div>
-            <div><span>粤ICP备00160394号  </span></div>
-        </div>
-    </div>
-</div>
-<div class="navbar-fixed-bottom bottom">
-    <div class="container bottom-nav">
-        <!--激活状态  active-home-->
-        <div class="col-xs-4 text-center bottomhome active-home"><a href="#">首页</a></div>
-        <div class="col-xs-4 text-center bottom-nav-center"><a href="#" class="hd"><img
-                src="content/images/bottom_hd_icon.png"></a></div>
-        <!--激活状态  active-my-->
-        <div class="col-xs-4 text-center bottommy"><a href="#">我的</a></div>
-
-    </div>
-</div>
-<!--浮动元素 -->
-<div id="sidebar" class="text-center">
-    <div><a href="#"><img src="content/images/share_icon.png">
-        <div>分享</div>
-    </a></div>
-    <div><a href="#"><img src="content/images/service_icon.png">
-        <div>咨询</div>
-    </a></div>
-    <div id="dvTop">
-        <a href="#"><img src="content/images/top_icon.png"></a>
-    </div>
-</div>
-<div id="wechatModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-            <h2 class="text-center">微信版</h2>
-            <div class="modal-detail text-left">
-                <h3>想微信接受更多财税信息?</h3>
-                <div>
-                    <div class="modal_left">
-
-                        <div>① 微信右上角</div>
-                        <div>② 添加朋友</div>
-                        <div>③ 选择公众号</div>
-                        <div>④ 搜索“普金网”</div>
-                    </div>
-                    <div class="modal_right">
-                        <img src="content/images/01_首页_微信版_03.png">
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
+        <div>
+            <div class="banmian">
+                <a href="#">电脑版</a>
+                <a href="#" data-toggle="modal" data-target="#wechatModal">微信版</a>
             </div>
-            <img data-dismiss="modal" class="modal_ok" src="content/images/01_首页_微信版_01.png">
-        </div>
+            <div class="footer">
+                <a href="#">关于普金</a>
+                <a href="#">帮助中心</a>
+                <a href="#">意见反馈</a>
+            </div>
 
+            <div class="copy">
+                <div><span>Copyright 2015-2016 普金网版权所有</span></div>
+                <div><span>粤ICP备00160394号  </span></div>
+            </div>
+        </div>
     </div>
-</div>
-<!--浮动元素end-->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="content/js/jquery.bcSwipe.min.js"></script>
-<script src="content/js/pages/index.js"></script>
+    <div class="navbar-fixed-bottom bottom">
+        <div class="container bottom-nav">
+            <!--激活状态  active-home-->
+            <div class="col-xs-4 text-center bottomhome active-home"><a href="#">首页</a></div>
+            <div class="col-xs-4 text-center bottom-nav-center"><a href="#" class="hd"><img
+                    src="content/images/bottom_hd_icon.png"></a></div>
+            <!--激活状态  active-my-->
+            <div class="col-xs-4 text-center bottommy"><a href="#">我的</a></div>
+
+        </div>
+    </div>
+    <!--浮动元素 -->
+    <div id="sidebar" class="text-center">
+        <div><a href="#"><img src="content/images/share_icon.png">
+            <div>分享</div>
+        </a></div>
+        <div><a href="#"><img src="content/images/service_icon.png">
+            <div>咨询</div>
+        </a></div>
+        <div id="dvTop">
+            <a href="#"><img src="content/images/top_icon.png"></a>
+        </div>
+    </div>
+    <div id="wechatModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <h2 class="text-center">微信版</h2>
+                <div class="modal-detail text-left">
+                    <h3>想微信接受更多财税信息?</h3>
+                    <div>
+                        <div class="modal_left">
+
+                            <div>① 微信右上角</div>
+                            <div>② 添加朋友</div>
+                            <div>③ 选择公众号</div>
+                            <div>④ 搜索“普金网”</div>
+                        </div>
+                        <div class="modal_right">
+                            <img src="content/images/01_首页_微信版_03.png">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <img data-dismiss="modal" class="modal_ok" src="content/images/01_首页_微信版_01.png">
+            </div>
+
+        </div>
+    </div>
+    <!--浮动元素end-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="content/js/jquery.bcSwipe.min.js"></script>
+    <script src="content/js/pages/index.js"></script>
 
 </div>
 </body>
