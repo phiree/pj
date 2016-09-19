@@ -11,9 +11,18 @@ body{
 
 }
 .header span img {
-    float: left;
     padding: 35px 0;
 }
+.header span:first-child img{
+
+    float: left;
+}
+.header span:last-child img{
+    float: right;
+    padding:20px 30px 20px 0;
+
+}
+
 .header .title
 {
     font-size:39px;

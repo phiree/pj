@@ -15,32 +15,40 @@
     <script src="content/js/html5shiv.min.js"></script>
     <script src="content/js/respond.min.js"></script>
     <![endif]-->
-    <link href="content/css/template/account/site.css" rel="stylesheet">
-    <link href="content/css/template/account/account.css" rel="stylesheet">
-    <link href="content/css/pages/login.css" rel="stylesheet">
-
-
+    <link href="content/css/template/content/pager.css" rel="stylesheet">
 
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top header">
-    <span><a href="index.html"><img src="content/images/back.png"></a></span>
-    <span class="title">全部订单</span>
-</div>
-<form>
-    <div class="input-group">
-        <input type="text" class="input-plain" placeholder="请输入新密码">
-      </div>
-        <div class="input-group">
-        <input type="text" class="input-plain" placeholder="再次确认新密码">
-       </div>
-        <button>确      认</button>
-
-</form>
 
 
+<nav class="text-center" aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="pager-first active">
+                    <a href="#" >
+                        <span aria-hidden="true">首页</span>
+                    </a>
+                </li>
+                <li class="pager-pre ">
+                    <a href="#"  >
+                        <span aria-hidden="true">前一页</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
 
+                <li class="pager-next"><a href="#">下一页</a></li>
 
+                <li class="pager-last">
+                    <a href="#"  >
+                        <span aria-hidden="true">末页</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+<!--浮动元素 -->
+
+<!--浮动元素end-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
